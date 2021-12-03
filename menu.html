@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+<!--Material Icons-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!--Font Awesome-->
+<script src="https://kit.fontawesome.com/0bdc1be305.js" crossorigin="anonymous"></script>
+
+ <!-- Compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+ <!--Google Font-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Dancing+Script&display=swap" rel="stylesheet">
+ 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Dancing+Script&family=Pacifico&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comforter&family=Comforter+Brush&family=Dancing+Script&family=Great+Vibes&family=Pacifico&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comforter&family=Comforter+Brush&family=Dancing+Script&family=Great+Vibes&family=Open+Sans:wght@300&family=Pacifico&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="css/main.css">
+    
+    <title>Coffee Express</title>
+
+</head>
+<body>
+    
+<!--Header-->
+<header class="main-header-menu">
+    <div class="navbar-fixed">
+      <nav class="brown">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="" class="brand-logo">
+              <img src="images/brand.jpg" class="responsive-img circle" style="width: 60px;">
+            </a>
+            <a href="a" data-target="slide-out" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+            </a> 
+            <ul class="right hide-on-med-and-down">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="menu.html" class="active-link">Menu</a>
+              </li>
+              <li>
+                <a href="ourshops.html">Our Shops</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    
+  <!--Sidenav-->
+  <ul id="slide-out" class="sidenav">
+    <h4 class="brown-text darken-4 center"> Coffee Express</h4>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li>
+      <a href="index.html" class="active-link">Home</a>
+    </li>
+    <li>
+      <a href="menu.html">Menu</a>
+    </li>
+    <li>
+      <a href="ourshops.html">Our Shops</a>
+    </li>
+    <li>
+      <a href="#order-modal" class="btn btn-medium brown white-text modal-trigger">Place Order</a>
+    </li>
+    <li>
+      <a href="#book-modal" class="btn btn-medium white brown-text modal-trigger">Book a Table</a>
+    </li>
+  </ul>
+    
+
+
+  <!--showcase-->
+  <div class="showcase container">
+    <div class="row">
+      <div class="col s12 m10 left">
+          <h2 class="brown-text" style="font-family: 'Pacifico', cursive;">Never miss a cup!</h2>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+<!--Products-->
+<div class="container">
+    <h3 class="brown-text center" style="font-family: 'Bebas Neue', cursive;">Products</h3>
+   
+    <div class="row">
+          <ul class="tabs">
+            <li class="tab col s4 brown-text"><a href="#coffee"><b>Coffee</b></a></li>
+            <li class="tab col s4 brown-text"><a href="#pastries"><b>Bread & Pastries</b></a></li>
+            <li class="tab col s4 brown-text"><a href="#noncoffee"><b>Non Coffee</b></a></li>
+          </ul>
+    </div>
+
+
+    <div class="row">
+        <div id="coffee">
+
+          <div class="col s12 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/blackcoffee.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                    <span class="card-title black-text"><strong>Black</strong></span>
+                </div>
+                <div class="card-action">
+                  <a href="#order-modal" class="btn btn-small brown white-text modal-trigger">Order Now</a>
+                </div>
+            </div>  
+          </div>
+
+          <div class="col s12 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/coffeelatte.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                    <span class="card-title black-text"><strong>Latte</strong></span>
+                </div>
+                <div class="card-action">
+                  <a href="#order-modal" class="btn btn-small brown white-text modal-trigger">Order Now</a>
+                </div>
+            </div>  
+          </div>
+          <div class="col s12 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/coffeemocha.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                    <span class="card-title black-text"><strong>Mocha</strong></span>
+                </div>
+                <div class="card-action">
+                  <a href="#order-modal" class="btn btn-small brown white-text modal-trigger">Order Now</a>
+                </div>
+            </div>
+          </div>  
+          <div class="col s12 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/matcha.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                    <span class="card-title black-text"><strong>Matcha Latte</strong></span>
+                </div>
+                <div class="card-action">
+                  <a href="#order-modal" class="btn btn-small brown white-text modal-trigger">Order Now</a>
+                </div>
+            </div>
+          </div>  
+          <div class="col s12 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/taro.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                    <span class="card-title black-text"><strong>Taro Latte</strong></span>
+                </div>
+                <div class="card-action">
+                  <a href="#order-modal" class="btn btn-small brown white-text modal-trigger">Order Now</a>
+                </div>
+            </div>
+          </div>  
+          <div class="col s12 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/caramel.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                    <span class="card-title black-text"><strong>Creamy Caramel</strong></span>
+                </div>
+                <div class="card-action">
+                  <a href="#order-modal" class="btn btn-small brown white-text modal-trigger">Order Now</a>
+                </div>
+            </div>
+          </div>  
+          <div class="col s12 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/coffeespresso.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                    <span class="card-title black-text"><strong>Espresso</strong></span>
+                </div>
+                <div class="card-action">
+                  <a href="#order-modal" class="btn btn-small brown white-text modal-trigger">Order Now</a>
+                </div>
+            </div>
+          </div>  
+          <div class="col s12 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/maccoffee.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                    <span class="card-title black-text"><strong>Macchiato</strong></span>
+                </div>
+                <div class="card-action">
+                  <a href="#order-modal" class="btn btn-small brown white-text modal-trigger">Order Now</a>
+                </div>
+            </div>
+          </div>  
+          <div class="col s12 l4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/milky.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                    <span class="card-title black-text"><strong>Milky Coffee</strong></span>
+                </div>
+                <div class="card-action">
+                  <a href="#order-modal" class="btn btn-small brown white-text modal-trigger">Order Now</a>
+                </div>
+            </div>
+          </div>      
+        </div>
+    </div>  
+    
+
+        
+        <div class="row">
+            <div id="pastries">
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/banana.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                            <span class="card-title black-text"><strong>Banana Bread</strong></span>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/croissantt.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                            <span class="card-title black-text"><strong>Croissant</strong></span>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/choco.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                            <span class="card-title black-text"><strong>Chocolate Balls</strong></span>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/chocoslice.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                            <span class="card-title black-text"><strong>Chocolate Chiffon</strong></span>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/red.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                            <span class="card-title black-text"><strong>Red velvet</strong></span>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/vanilla.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                            <span class="card-title black-text"><strong>Vanilla Slice</strong></span>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="row">
+            <div id="noncoffee">
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/lemon.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                            <span class="card-title brown-text"><b>Lemonade</b></span>
+                        </div>
+                    </div>
+                </div>       
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/lychee.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                            <span class="card-title brown-text"><b>Lychee</b></span>
+                        </div>
+                    </div>
+                </div>       
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/cucumber.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                            <span class="card-title brown-text"><b>Cucumber</b></span>
+                        </div>
+                    </div>
+                </div>       
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/berry.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                            <span class="card-title brown-text"><b>Red Berry</b></span>
+                        </div>
+                    </div>
+                </div>       
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/calamansi.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                            <span class="card-title brown-text"><b>Calamansi</b></span>
+                        </div>
+                    </div>
+                </div>       
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/pomelo.jpg" style="height: 450px; width: 500px;" class="responsive-img">
+                            <span class="card-title brown-text"><b>Pomelo</b></span>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+        </div>
+<!--end of container-->       
+</div>
+    
+
+
+
+<!--Footer-->
+<footer class="page-footer brown"> 
+    <div class="container">
+      <div class="row">
+        <!--Contacts-->
+        <div class="col s12 l4">
+         <h4 class="white-text" style="font-family: 'Bebas Neue', cursive;">Contacts</h4>
+          <ul>
+              <li>
+                <a href="#">
+                    <i class="fas fa-map-marker-alt white-text"> Balanga City, Bataan</i>
+                  </a>
+              </li>
+              <li>
+                <a href="#">
+                    <i class="fas fa-phone white-text"> +639-271-678456</i>
+                  </a>
+              </li>
+              <li>
+                    <i class="fas fa-at white-text"> expresscoffee@gmail.com</i>
+              </li>
+          </ul>
+        </div>
+        <!--Links-->
+        <div class="col s12 l4">
+          <h5 class="white-text" style="font-family: 'Bebas Neue', cursive;">Links</h5>
+           <ul>
+              <li>
+                <a href="index.html" class="white-text">Home</a>
+              </li>
+              <li>
+                <a href="menu.html" class="white-text">Menu</a>
+              </li>
+              <li>
+                <a href="ourshops.html" class="white-text">Our Shops</a>
+              </li>
+            </ul>
+        </div>
+
+        <!--Social Media-->
+        <div class="col s12 l4">
+            <h5 class="white-text" style="font-family: 'Bebas Neue', cursive;">Follow Us</h5>
+             <ul>
+                <li>
+                    <a href="#">
+                      <i class="fab fa-facebook white-text"> coffee_express</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                      <i class="fab fa-instagram white-text"> _expresscoffee</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                      <i class="fab fa-twitter white-text"> coffeeexpress_</i>
+                    </a>
+                </li>
+              </ul>
+          </div>
+
+      </div>
+    </div>
+
+    <div class="footer-copyright brown lighten-1 center">
+        <div class="container">
+          Coffee Express &copy; 2021, All Rights Reserved
+        </div>
+      </div>
+  </footer>
+  
+  
+
+
+<!--Order Modal-->
+<div id="order-modal" class="modal">
+  <div class="modal-content">
+    <h4><i class="fas fa-mug-hot"> Never Miss a Cup!</i></h4>
+    <p>Fill out the following to place your order</p>
+    <form>
+      <div class="input-field">
+        <input type="text" id="first_name">
+        <label for="first_name">First Name</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="last_name">
+        <label for="last_name">Last Name</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="phone_number">
+        <label for="phone_number">Phone Number</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="address">
+        <label for="address">Complete Address</label>
+      </div>
+      <div class="input-field">
+        <select id="flavor">
+            <option value=""disabled selected>Choose Coffee</option>
+            <option value="black">Black Coffee</option>
+            <option value="mocha">Mocha</option>
+            <option value="espresso">Espresso</option>
+            <option value="latte">Latte</option>
+            <option value="macchiato">Macchiato</option>
+            <option value="milky">Milky Coffe</option>
+            <option value="matcha">Matcha Latte</option>
+            <option value="taro">Taro Latte</option>
+            <option value="caramel">Creamy Caramel</option>
+        </select>
+        <label for="flavor">Select Flavor</label>
+      </div>
+      <div class="input-field">
+        <select id="size">
+            <option value=""disabled selected>Choose a Cup</option>
+            <option value="small">Small (8 ounce)</option>
+            <option value="regular">Regular (12 ounce)</option>
+            <option value="Medium">Medium (16 ounce)</option>
+            <option value="large">Large (20 ounce)</option>
+        </select>
+        <label for="flavor">Size</label>
+      </div>
+      <div class="input-field">
+        <select id="add-ons">
+            <option value=""disabled selected>Add-Ons</option>
+            <option value="cream">Cream Cheese</option>
+            <option value="milk">Milk</option>
+            <option value="chocolate">Chocolate Syrup</option>
+            <option value="caramel">Caramel Syrup</option>
+        </select>
+        <label for="flavor">Select</label>
+      </div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="modal-action modal-close btn grey">
+      Cancel
+    </a>
+    <a href="#" class="modal-action modal-close btn brown">
+       Place Order
+    </a>
+  </div>
+</div>
+
+
+
+<!--Booking Modal-->
+<div id="book-modal" class="modal">
+  <div class="modal-content">
+    <h4><i class="fas fa-mug-hot"> Never Miss a Cup!</i></h4>
+    <p>Reserve your table now</p>
+    <form>
+      <div class="input-field">
+        <input type="text" id="first_name">
+        <label for="first_name">First Name</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="last_name">
+        <label for="last_name">Last Name</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="phone_number">
+        <label for="phone_number">Phone Number</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="headcount">
+        <label for="headcount">Number of Visitor/s</label>
+      </div>
+      <div class="input-field">
+        <input type="text" class="datepicker">
+        <label for="datepicker">Date</label>
+      </div>
+      <div class="input-field">
+        <input type="text" class="timepicker">
+        <label for="timepicker">Time</label>
+      </div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="modal-action modal-close btn grey">
+      Cancel
+    </a>
+    <a href="#" class="modal-action modal-close btn brown">
+      Book Now
+    </a>
+  </div>
+</div>
+
+    
+
+
+
+<!--Jquery CDN-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+ <script>
+  $(document).ready(function(){
+    $('.sidenav').sidenav({
+      edge: 'right'
+    });
+
+
+//Modal Initialization
+$('.modal').modal();
+
+//Select Initialization
+$('select').formSelect();
+
+//Tabs Initialization
+    $('.tabs').tabs();
+
+//Date Initialization
+$('.datepicker').datepicker();
+
+//Time Initialization
+$('.timepicker').timepicker();
+
+});
+</script>
+
+
+</body>
+</html>

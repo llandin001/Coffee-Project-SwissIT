@@ -1,0 +1,81 @@
+.main-header {
+    background: url(../images/shop.jpg);
+    min-height: 600px;
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+  }
+
+
+.active-link {
+    color: burlywood;
+    font-weight: bold;
+  }
+  
+
+.main-header .showcase {
+    padding-top: 30px;
+  }
+  
+
+.main-header-menu {
+    background: url(../images/know.jpg);
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+  }
+
+.main-header-menu .showcase {
+    padding-top: 30px;
+  } 
+  
+
+.main-header-shop {
+    background: url(../images/loc.jpg);
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+  }
+
+.main-header-shop .showcase {
+    padding-top: 10px;
+  } 
+
+
+.datepicker-date-display {
+    background: peru !important;
+}
+.datepicker-table td.is-selected {
+    background: peru !important;
+}
+.datepicker-cancel {
+    color: peru !important;
+}
+.datepicker-done {
+    color: peru !important;
+}
+.datepicker-table td.is-today {
+    color: peru !important;
+}
+
+
+
+.timepicker-digital-display {
+    background: peru !important;
+}
+.timepicker-canvas line {
+    stroke: peru !important;
+}
+.timepicker-canvas-bg,
+.timepicker-canvas-bearing {
+    fill: peru !important;
+}
+.timepicker-close {
+    color: peru !important;
+}
+.timepicker-tick :hover {
+    background: peru !important;
+}
+
